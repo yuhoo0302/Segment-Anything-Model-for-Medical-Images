@@ -1,10 +1,12 @@
 # Segment-Anything-Model-for-Medical-Images
+
 Implementation of "Segment Anything Model for Medical Images?" in pytorch.
-Arxiv link:[https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14660.pdf)
+
+Arxiv link: [https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14660.pdf)
 
 ## Usage
 
-### 1. Prepare your data in the following format and prepare the segmentation information _json_ files corresponding to each test set.
+### 1. Prepare data and segmentation information _json_ files corresponding to each test set.
 
  <details>  
   
@@ -102,3 +104,6 @@ $ python test_only_box.py
 ```
 $ python cal_matric.py       
 ```
+
+# Our pretrained weights.
+Checkpoints download path: [https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing](https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing)
