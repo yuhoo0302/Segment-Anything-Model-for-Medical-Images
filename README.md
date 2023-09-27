@@ -4,7 +4,7 @@ Arxiv link:[https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.146
 
 # Usage
   <summary>Prepare your dataset.</summary>
-  Prepare your data in the following format and prepare the segmentation information _json_ files corresponding to each test set.
+  <Prepare your data in the following format and prepare the segmentation information _json_ files corresponding to each test set.>
 ```
 Info refers to the segmentation target in this dataset, while color is the ground truth pixel value corresponding to the target.
 {
