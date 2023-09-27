@@ -69,7 +69,7 @@ parser.add_argument("--model_type", type=str, default="vit_b", help="model type"
 parser.add_argument(
     "--checkpoint",
     type=str,
-    default="/mnt/data1/liulian/SAM_liulian/fine_tune/sam_vit_b_01ec64.pth",
+    default="sam_vit_b_01ec64.pth",
     help="original sam checkpoint",
 )
 parser.add_argument("--device", type=str, default="cuda:1", help="device")
