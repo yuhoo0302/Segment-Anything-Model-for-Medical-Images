@@ -97,7 +97,7 @@ $ python train_only_box.py    --tr_npz_path data/precompute_vit_b/train  --val_n
 $ python test_only_box.py    
 ```
 
-### 5. Calculate your metric.
+### 5. Calculation of the indicators.
 
 ```
 $ python cal_matric.py       
