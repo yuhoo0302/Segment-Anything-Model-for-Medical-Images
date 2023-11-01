@@ -1,6 +1,6 @@
 # Segment-Anything-Model-for-Medical-Images
 
-Implementation of "Segment Anything Model for Medical Images?" in pytorch.
+Implementation of "Segment Anything Model for Medical Images?" in pytorch --for finetuning the SAM with box prompts.
 
 Arxiv link: [https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14660.pdf)
 
@@ -107,3 +107,17 @@ $ python cal_matric.py
 
 # Our pretrained weights.
 Checkpoints download path: [https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing](https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing)
+
+# Acknowledgments
+Our code is based on [Segment Anything](https://github.com/facebookresearch/segment-anything) and [MedSAM](https://arxiv.org/abs/2304.12306). We appreciate the authors for their great works. 
+
+# Citation
+If you find the code useful for your research, please cite our paper.
+```sh
+@article{huang2023segment,
+  title={Segment anything model for medical images?},
+  author={Huang, Yuhao and Yang, Xin and Liu, Lian and Zhou, Han and Chang, Ao and Zhou, Xinrui and Chen, Rusi and Yu, Junxuan and Chen, Jiongquan and Chen, Chaoyu and others},
+  journal={arXiv preprint arXiv:2304.14660},
+  year={2023}
+}
+}
