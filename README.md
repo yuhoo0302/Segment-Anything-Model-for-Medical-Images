@@ -14,7 +14,7 @@ Arxiv link: [https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14
   
  <summary>Json file content.</summary>
   
- Info refers to the segmentation target in this dataset, while color is the ground truth pixel value corresponding to the target.
+ "Info" refers to the segmentation target in this dataset, while "color" is the ground truth pixel value corresponding to the target.
   
  ```
  {
@@ -95,13 +95,13 @@ $ python train_only_box.py    --tr_npz_path data/precompute_vit_b/train  --val_n
                               --tr_npz_path data/precompute_vit_h/train  --val_npz_path data/precompute_vit_h/valid --model_type vit_h # finetune ViT-H
 ```
 
-### 4. Test on finetuned checkpoints.
+### 4. Test on finetuned models and output the Dice results.
 
 ```
 $ python test_only_box.py    
 ```
 
-### 5. Calculation of the indicators.
+### 5. Calculation of all the indicators (Dice, IOU, HD, etc.).
 
 ```
 $ python cal_matric.py       
