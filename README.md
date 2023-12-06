@@ -84,8 +84,8 @@ Arxiv link: [https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14
 ### 2. Generate embedding for each single image.
 
 ```
-$ python pre_grey_rgb2D.py         --img_path  data/train_data/images    --gt_path data/train_data/images                        --checkpoint sam_vit_b_01ec64.pth              #for ViT-B model trainingg
-$ python pre_grey_rgb2D_Huge.py    --img_path  data/test_data            --gt_path data/test_data     --task_name 22_Heart       --checkpoint sam_vit_b_01ec64.pth              #for ViT-H model testing
+$ python pre_grey_rgb2D.py         --img_path  data/train_data/images    --gt_path data/train_data/images                        --checkpoint sam_vit_b_01ec64.pth              #for preparing training data (embeddings) with ViT-B  
+$ python pre_grey_rgb2D_Huge.py    --img_path  data/test_data            --gt_path data/test_data     --task_name 22_Heart       --checkpoint sam_vit_b_01ec64.pth              #for preparing testing data (embeddings) with ViT-B
 ```
 
 ### 3. Finetune SAM with your own data.
