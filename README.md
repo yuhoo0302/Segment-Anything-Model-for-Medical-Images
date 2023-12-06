@@ -4,6 +4,8 @@ Implementation of "Segment Anything Model for Medical Images?" in pytorch --for 
 
 Arxiv link: [https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14660.pdf)
 
+#### Our work has been accepted by Medical Image Analysis (MedIA) 2023! The link will be updated soon!
+
 ## Usage
 
 ### 1. Prepare data and segmentation information _json_ files corresponding to each test set.
