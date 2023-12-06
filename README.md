@@ -119,7 +119,7 @@ If you find the code useful for your research, please cite our paper.
 @article{huang2023segment,
   title={Segment anything model for medical images?},
   author={Huang, Yuhao and Yang, Xin and Liu, Lian and Zhou, Han and Chang, Ao and Zhou, Xinrui and Chen, Rusi and Yu, Junxuan and Chen, Jiongquan and Chen, Chaoyu and others},
-  journal={arXiv preprint arXiv:2304.14660},
+  journal={Medical Image Analysis (MIA)},
   year={2023}
 }
 }
