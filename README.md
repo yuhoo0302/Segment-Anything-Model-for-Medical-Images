@@ -3,6 +3,7 @@
 Implementation of "Segment Anything Model for Medical Images?" in pytorch --for finetuning the SAM with box prompts.
 
 Arxiv link: [https://arxiv.org/pdf/2304.14660.pdf](https://arxiv.org/pdf/2304.14660.pdf)
+
 MIA version link: [https://www.sciencedirect.com/science/article/pii/S1361841523003213](https://www.sciencedirect.com/science/article/pii/S1361841523003213)
 
 #### Our work has been accepted by Medical Image Analysis (MedIA) 2023! 
