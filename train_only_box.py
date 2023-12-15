@@ -204,7 +204,7 @@ if __name__ == "__main__":
     device = args.device
     model_save_path = join(args.work_dir, Task)
     os.makedirs(model_save_path, exist_ok=True)
-    sam_model = sam_model_registry[args.model_type](checkpoint=args.checkpoint).to(device)
+    sam_model = sam_model_registry[args.model_type](checkpoint=args.checkpoint, device=device).to(device)
 
     # Set up the optimizer, hyperparameter tuning will improve performance here
     optimizer = torch.optim.AdamW(sam_model.mask_decoder.parameters(), lr=args.lr, weight_decay=args.weight_decay)
