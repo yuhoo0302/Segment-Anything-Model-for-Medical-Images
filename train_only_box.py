@@ -187,7 +187,7 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--tr_npz_path', type=str, default=f'data/precompute_vit_b/train', help='path to training npz files (im_emb, gt)')
     parser.add_argument('-j', '--val_npz_path', type=str, default=f'data/precompute_vit_b/train', help='path to validation npz files (im_emb, gt)')
     parser.add_argument('--model_type', type=str, default='vit_b')
-    parser.add_argument('--checkpoint', type=str, default='/mnt/data1/liulian/SAM_liulian/fine_tune/sam_vit_b_01ec64.pth', help='original sam checkpoint path')
+    parser.add_argument('--checkpoint', type=str, default='sam_vit_b_01ec64.pth', help='original sam checkpoint path')
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument('--work_dir', type=str, default='work_dir_b')
     # train
