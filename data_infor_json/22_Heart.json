@@ -1,12 +1,8 @@
 {
     "info": {
-        "1": "LeftVentricle",
-        "2": "LeftVentricularMyocardium",
-        "3": "RightVentricle"
+        "1": "BrainTumor"
     },
     "color": {
-        "1": 85,
-        "2": 170,
-        "3": 255
+        "1": 255
     }
 }
