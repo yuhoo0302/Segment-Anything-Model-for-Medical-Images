@@ -72,7 +72,7 @@ parser.add_argument(
     default="sam_vit_h_4b8939.pth",
     help="checkpoint",
 )
-parser.add_argument("--device", type=str, default="cuda:7", help="device")
+parser.add_argument("--device", type=str, default="cuda:0", help="device")
 parser.add_argument("--seed", type=int, default=2023, help="random seed")
 
 # parse the arguments
