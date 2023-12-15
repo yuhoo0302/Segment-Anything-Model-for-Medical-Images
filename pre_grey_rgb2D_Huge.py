@@ -92,7 +92,7 @@ img_embeddings = []
 # download save the SAM checkpoint.
 # [https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth](VIT-B SAM model)
 
-sam_model = sam_model_registry[args.model_type](checkpoint=args.checkpoint).to(
+sam_model = sam_model_registry[args.model_type](checkpoint=args.checkpoint, device = args.device).to(
     args.device
 )
 
