@@ -183,7 +183,7 @@ if __name__ == "__main__":
     json_info_path = f"data_infor_json/{task}.json"
     test_mode = "finetune_data"
     model_type = f"vit_{size}"
-    device = "cuda:1"
+    device = "cuda:0"
         
     """construct model and predictor"""
     sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
