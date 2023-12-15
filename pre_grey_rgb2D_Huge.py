@@ -194,7 +194,7 @@ def process(gt_name: str, image_name: str, mode: str):
         return None, None, None, None, None
 
 if __name__ == "__main__":
-    mode = 'test'
+    mode = 'train'
     if args.csv != None:
         # if data is presented in csv format
         # columns must be named image_filename and mask_filename respectively
