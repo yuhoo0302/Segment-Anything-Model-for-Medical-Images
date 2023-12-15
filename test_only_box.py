@@ -186,7 +186,7 @@ if __name__ == "__main__":
     device = "cuda:0"
         
     """construct model and predictor"""
-    sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
+    sam = sam_model_registry[model_type](checkpoint=sam_checkpoint, device=device)
     sam.to(device)
     sam.eval()
     predictor = SamPredictor(sam)
