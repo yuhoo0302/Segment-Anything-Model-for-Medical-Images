@@ -109,7 +109,7 @@ $ python test_only_box.py
 $ python cal_matric.py       
 ```
 
-# Our pretrained weights.
+# Our pretrained weights  
 Checkpoints download path: [https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing](https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing)
 
 # Acknowledgments
