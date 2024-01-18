@@ -285,16 +285,17 @@ https://github.com/wasserth/TotalSegmentator
 https://aistudio.baidu.com/aistudio/projectdetail/1952488?channelType=0&channel=0
 
 # Acknowledgments
-Our code is based on [Segment Anything](https://github.com/facebookresearch/segment-anything) and [MedSAM](https://arxiv.org/abs/2304.12306). We appreciate the authors for their great works. 
+Our code is based on [Segment Anything](https://github.com/facebookresearch/segment-anything) and [MedSAM](https://arxiv.org/abs/2304.12306). We appreciate the authors for their great works. We also sincerely appreciate all the challenge organizers and owners for providing the public medical image segmentation datasets.
 
 # Citation
 If you find the code useful for your research, please cite our paper.
 ```sh
-@article{huang2023segment,
+@article{huang2024segment,
   title={Segment anything model for medical images?},
   author={Huang, Yuhao and Yang, Xin and Liu, Lian and Zhou, Han and Chang, Ao and Zhou, Xinrui and Chen, Rusi and Yu, Junxuan and Chen, Jiongquan and Chen, Chaoyu and others},
   journal={Medical Image Analysis},
+  volume={92},
   pages={103061},
-  year={2023},
+  year={2024},
   publisher={Elsevier}
 }
