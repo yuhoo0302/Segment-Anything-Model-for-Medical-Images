@@ -117,12 +117,10 @@ Checkpoints download path: [https://drive.google.com/drive/folders/1jry-07RxGYQn
 We collected and sorted 53 public datasets to build the large COSMOS 1050K medical image segmentation dataset.
 Following are the links to the datasets used in our paper.
 
-<details>
-<summary style="font-size:20px;">Links</summary>
-We collected and sorted 53 public datasets to build the large COSMOS 1050K medical image segmentation dataset.
-Following are the links to the datasets used in our paper.
-
 Ownership and license of the datasets belong to their corresponding original papers, authors, or competition organizers. If you use the datasets, please cite the corresponding paper or links.
+
+<details>
+<summary style="font-size:30px;">Links</summary>
 
 ### AbdomenCT-1K	
 https://abdomenct-1k-fully-supervised-learning.grand-challenge.org/
