@@ -113,8 +113,12 @@ $ python cal_matric.py
 Checkpoints download path: [https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing](https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing)
 
 # COSMOS 1050K Dataset
+
+We collected and sorted 53 public datasets to build the large COSMOS 1050K medical image segmentation dataset.
+Following are the links to the datasets used in our paper.
+
 <details>
-<summary>COSMOS 1050K</summary>
+<summary style="font-size:20px;">Links</summary>
 We collected and sorted 53 public datasets to build the large COSMOS 1050K medical image segmentation dataset.
 Following are the links to the datasets used in our paper.
 
