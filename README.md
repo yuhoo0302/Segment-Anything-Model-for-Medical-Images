@@ -113,8 +113,8 @@ $ python cal_matric.py
 Checkpoints download path: [https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing](https://drive.google.com/drive/folders/1jry-07RxGYQnT9cQE8weuCZurDCu58pj?usp=sharing)
 
 
-# COSMOS 1050K Dataset
-
+<details>
+<summary># COSMOS 1050K Dataset</summary>
 We collected and sorted 53 public datasets to build the large COSMOS 1050K medical image segmentation dataset.
 Following are the links to the datasets used in our paper.
 
@@ -283,6 +283,7 @@ https://github.com/wasserth/TotalSegmentator
 
 ### 4C2021 C04 TLS01	
 https://aistudio.baidu.com/aistudio/projectdetail/1952488?channelType=0&channel=0
+</details>
 
 # Acknowledgments
 Our code is based on [Segment Anything](https://github.com/facebookresearch/segment-anything) and [MedSAM](https://arxiv.org/abs/2304.12306). We appreciate the authors for their great works. We also sincerely appreciate all the challenge organizers and owners for providing the public medical image segmentation datasets.
