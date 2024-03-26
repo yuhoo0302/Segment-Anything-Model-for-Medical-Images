@@ -86,7 +86,7 @@ MIA version link: [https://www.sciencedirect.com/science/article/pii/S1361841523
 ### 2. Generate embedding for each single image.
 
 ```
-$ python pre_grey_rgb2D.py         --img_path  data/train_data/images    --gt_path data/train_data/images                        --checkpoint sam_vit_b_01ec64.pth              #for preparing training data (embeddings) with ViT-B  
+$ python pre_grey_rgb2D.py         --img_path  data/train_data/images    --gt_path data/train_data/labels                       --checkpoint sam_vit_b_01ec64.pth              #for preparing training data (embeddings) with ViT-B  
 $ python pre_grey_rgb2D_Huge.py    --img_path  data/test_data            --gt_path data/test_data     --task_name 22_Heart       --checkpoint sam_vit_b_01ec64.pth              #for preparing testing data (embeddings) with ViT-B
 ```
 
