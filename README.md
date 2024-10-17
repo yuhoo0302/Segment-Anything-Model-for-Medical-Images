@@ -1,4 +1,4 @@
-# Segment-Anything-Model-for-Medical-Images-
+# Segment-Anything-Model-for-Medical-Images
 
 Implementation of "Segment Anything Model for Medical Images?" in pytorch --for finetuning the SAM with box prompts.
 
